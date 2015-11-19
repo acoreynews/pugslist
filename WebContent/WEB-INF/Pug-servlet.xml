@@ -14,13 +14,6 @@
 	
     <context:annotation-config />
 
-	<!-- <bean id="myDataSource" class="org.apache.commons.dbcp.BasicDataSource">
-		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost:3306/pugslist" />
-		<property name="username" value="acorey" />
-		<property name="password" value="anthony" />
-	</bean> -->
-
 		<bean id="myEntityManagerFactory"
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
 		<property name="persistenceUnitName" value="pugslist" />
